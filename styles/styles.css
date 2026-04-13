@@ -1,4 +1,5 @@
-p { font-family: 'Google Sans', sans-serif; }
+p { font-family: 'Google Sans', sans-serif;
+color: #f5f5f5; }
 
 .explore-header {
   background-color: #f5f5f5;
@@ -7,7 +8,6 @@ p { font-family: 'Google Sans', sans-serif; }
 }
 
 .home-header {
-  background-color: #e0e0e0;
   padding: 20px;
   text-align: center;
 }
@@ -16,6 +16,7 @@ h1 {
   font-size: 2.5em;
   margin: 0;
   font-family: 'Google Sans', sans-serif;
+  color: #f5f5f5;
 }
 
 h2 {
@@ -34,11 +35,19 @@ h2 {
   font-family: 'Google Sans', sans-serif;
 }
 
+.genre-scroll {
+  display:flex;
+  justify-content:center;
+}
+
 .search-bar {
-  display: flex;
-  justify-content: center;
   margin: 20px;
   font-family: 'Google Sans', sans-serif;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
 }
 
 a {
@@ -56,4 +65,8 @@ a {
   margin: 20px;
   text-align: center;
   font-family: 'Google Sans', sans-serif;
+}
+
+body{
+  background-color: #272727;
 }
