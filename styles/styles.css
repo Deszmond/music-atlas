@@ -55,7 +55,7 @@ h2 {
   align-items: center;
 
   overflow: hidden;
-  transition: 0.5s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 /* Color overrides */
@@ -86,7 +86,7 @@ h2 {
   object-position: center;
   display: block;
   filter: grayscale();
-  transition: 0.5s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .genre-card img:hover, .genre-card:hover {
