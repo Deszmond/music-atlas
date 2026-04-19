@@ -13,7 +13,6 @@ color: #f5f5f5; }
 }
 
 .cta-section {
-
   display: flex;
   justify-content: center;
 }
@@ -56,28 +55,36 @@ h2 {
 
   overflow: hidden;
   transition: 0.2s ease-in-out;
+
+  filter: grayscale(100%);
+  transition: all 0.2s ease-in-out;
+}
+
+.genre-scroll {
+  display:flex;
+  justify-content:center;
 }
 
 /* Color overrides */
 .genre-card--afrobeats { 
   background-color: #E6642C;
-  filter: grayscale(); } 
+} 
   
 .genre-card--uk-rap { 
   background-color: #7B7589;
-  filter: grayscale(); }
+}
 
 .genre-card--gospel { 
   background-color: #DAA822;
-  filter: grayscale(); }
+}
 
 .genre-card--reggae { 
   background-color: #40BF6A;
-  filter: grayscale(); }
+}
 
 .genre-card--amapiano { 
   background-color: #0177d8;
-  filter: grayscale(); }
+}
 
 .genre-card img {
   width: 200%;
@@ -85,26 +92,19 @@ h2 {
   object-fit: cover;
   object-position: center;
   display: block;
-  filter: grayscale();
-  transition: 0.2s ease-in-out;
-}
-
-.genre-card img:hover, .genre-card:hover {
-  filter: grayscale(0%);
 }
 
 .genre-card img[data-genre="ukrap"] {
   width:150%;
-  
 }
 
 .genre-card img[data-genre="reggae"] {
   width:250%
 }
 
-.genre-scroll {
-  display:flex;
-  justify-content:center;
+.genre-box:hover .genre-card {
+  filter: grayscale(0%);
+  transform: scale(1.03);
 }
 
 .genre-box {
