@@ -7,6 +7,12 @@ color: #f5f5f5; }
   text-align: center;
 }
 
+.page-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .home-header {
   padding: 20px;
   text-align: center;
@@ -63,6 +69,8 @@ h2 {
 .genre-scroll {
   display:flex;
   justify-content:center;
+  margin-top: auto;
+  gap: 20px;
 }
 
 /* Color overrides */
